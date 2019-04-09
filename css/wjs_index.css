@@ -376,3 +376,93 @@
 .wjs_partner .wjs_icon {
   font-size: 80px;
 }
+.booking {
+  width: 200px;
+  height: 50px;
+
+}
+
+/* footer */
+.footer{
+  position: relative;
+  width: 100%;
+  height: 520px;
+ }
+ .footer_main{
+  margin: 0 auto;
+  width: 1200px;
+  height: 220px;
+  position: relative;
+  top: 50px;
+  display: flex;
+  border-bottom:1px solid silver;
+ }
+ .info-item{
+  width: 300px;
+  height: 100%;
+  border-right:1px dashed silver;
+ }
+ .footerlogo{
+  width: 100%;
+  height: 68px;
+ }
+ .footerlogo a img{
+  width: 140px;
+  position: absolute;
+  top: 0;
+  left: 0;
+ }
+ .address{
+  margin-top: 20px;
+ }
+ .address p{
+  padding-left: 20px;
+  line-height: 1.5;
+  font-size: 14px;
+ }
+ .footer_list{
+  height: 100%;
+  width: 80px;
+  margin: 0 auto;
+  line-height: 2;
+ }
+ .footer_list li{
+      display: list-item;
+   font-size: 14px;
+ }
+ .email{
+  width: 200px;
+  margin:20px auto 0;
+  font-size: 15px;
+  line-height: 1.5;
+ }
+ .email p{
+  font-size: 20px;
+     text-align: center;
+     line-height: 2;
+ }
+ 
+ .hold-line{
+  position: relative;
+  top: 50px;
+  margin: 30px auto 40px;
+     width: 1200px;
+     border-bottom: 1px solid #f3f3f3;
+ }
+ .friend-link{
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  bottom: 20%;
+  font-size: 14px;
+  color: #c5c5c5; 
+ }
+ .friend-link p{
+  display: block;
+  text-align: center;
+  line-height: 1;
+     padding-bottom: 10px;
+ }

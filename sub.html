@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>万物仓</title>
+    <link href="./lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--引入公共样式文件--字体图标-->
+    <link rel="stylesheet" href="./css/base.css">
+    <!--引入当前页面的样式文件-->
+    <link rel="stylesheet" href="./css/wjs_index.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    <link rel="stylesheet" href="./css/zero.css">
+    <!--引入独立的导航条样式-->
+    <!--<link rel="stylesheet" href="./css/wjs_nav.css">-->
+    <!--[if lt IE 9]>
+    <script src="./lib/html5shiv/html5shiv.min.js"></script>
+    <script src="./lib/respond/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--头部块-->
+<nav class="navbar navbar-default wjs_nav">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="./images/icon.jpeg" alt="">
+        </a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav hidden-sm navbar-right">
+          <li class="active"><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+          <li class="dropdown" >
+                <a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  万物仓服务
+                  <span class="caret"></span>
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li><a href="#">万物仓优势</a></li>
+                    <li><a href="#">常见问题</a></li>
+                    <li><a href="#">资讯</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </li>
+          <li><a href="#">万物仓优势</a></li>
+          <li><a href="#">常见问题</a></li>
+          <li><a href="#">资讯</a></li>
+          <li><a href="#">联系我们</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">个人中心</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!--sub表单-->
+<!-- bootstrap -->
+<section class="sub-box">
+    <div class="sub-body">
+        <div class="sub-content container">
+            <h3>立即预约</h3>
+            <form>
+                <div class="form-group1 row">
+                    <div class="col-md-2 container"><h4 for="exampleInputUsername1">姓名</h4></div>
+                    <div class="col-md-8"><input type="username" class="form-control" id="exampleInputUsername1" placeholder="请填写您的名字"></div>
+                </div>
+                <div class="form-group row">
+                        <div class="col-md-2 container"><h4 for="exampleInputphone1">手机</h4></div>
+                        <div class="col-md-8"><input type="phone" class="form-control" id="exampleInputPhone1" placeholder="请填写您的手机号码"></div>
+                    </div>  
+                <div class="form-group row">
+                  <div class="col-md-2"><h4 for="exampleInputcode1 ">验证码</h4></div>
+                  <div class="col-md-8"><input type="code" class="form-control" id="exampleInputcode1" placeholder="请输入验证码"></div>
+                  <div class="col-md-1"></div><button type="submit" class="btn btn-warning">获取验证码</button>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-2"><h4 for="exampleInputcity1" >城市</label></div>
+                    <div class="btn-group col-md-2">
+                        <button type="button" class="btn btn-default dropdown-toggle"   data-toggle="dropdown"aria-haspopup="true" aria-expanded="false">
+                          深圳 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">北京</a></li>
+                          <li><a href="#">上海</a></li>
+                          <li><a href="#">深圳</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2"><h4 for="exampleInputare1 " >区域</h4></div>
+                    <div class="btn-group col-md-2">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"aria-haspopup="true" aria-expanded="false">
+                      南山区 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">南山区</a></li>
+                      <li><a href="#">福田区</a></li>
+                      <li><a href="#">罗湖区</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="form-group row">
+                        <div class="col-md-2"><h4 for="exampleInputadress1">详细地址</h4></div>
+                        <div class="col-md-8"><input type="phone" class="form-control " id="exampleInputadress1" placeholder="请填写您的详细地址"></div>
+                      </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> 同意
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-default btn-warning">预约服务</button>
+            <form>
+        </div>
+    </div>
+</section>
+
+<!-- <section class="sub-box">
+    <div class="sub-body">
+        <div class="sub-content container">
+        <h3 class="title phone-hidden">立即预约</h3>
+        <div class="type-sec">
+          <p class="title">选择存储类型</p>
+        </div>
+        <div class="person-info">
+          <p class="title  phone-hidden">填写个人信息</p>
+          <div class="name">
+            <span>姓名</span>
+            <input type="text" id="username" placeholder="请填写您的姓名">
+          </div>
+          <div class="phone-num">
+            <span class="phone-hidden">手机号码</span>
+            <span class="pc-hidden">手机</span>
+            <input type="text" id="userphone" placeholder="请填写您的手机号">
+          </div>
+          <div class="check-code">
+            <span class="phone-hidden">验证码</span>
+            <input type="text" id="usercode" placeholder="请输入验证码">
+            <a href="javascript:;" type="button" class="sub-btn" id="security-btn">获取验证码</a>
+          </div>
+          <div class="select-city">
+            <span class="phone-hidden">城市</span>
+            <div class="sec-box psr">
+              <select class="city" name="city" id="city_name">
+                                <option value="深圳市">深圳市</option>
+                                <option value="北京市">北京市</option>
+                                <option value="上海市">上海市</option>
+                                <option value="广州市">广州市</option>
+                                <option value="杭州市">杭州市</option>
+                            </select>
+              <div class="line phone-hidden"></div>
+              <span class="arrow-icon-down phone-hidden">
+              </span>
+            </div>
+            <span class="phone-hidden">区域</span>
+            <span class="pc-hidden">区</span>
+            <div class="sec-box psr">
+              <select class="erea" name="erea" id="city_area"><option value="黄浦区">黄浦区</option><option value="徐汇区">徐汇区</option><option value="长宁区">长宁区</option><option value="静安区">静安区</option><option value="普陀区">普陀区</option><option value="虹口区">虹口区</option><option value="杨浦区">杨浦区</option><option value="宝山区">宝山区</option><option value="闵行区">闵行区</option><option value="嘉定区">嘉定区</option><option value="浦东新区">浦东新区</option><option value="松江区">松江区</option><option value="金山区">金山区</option><option value="青浦区">青浦区</option><option value="奉贤区">奉贤区</option><option value="崇明区">崇明区</option></select>
+              <div class="line phone-hidden"></div>
+              <span class="arrow-icon-down phone-hidden">
+              </span>
+            </div>
+          </div>
+          <div class="address">
+            <span class="phone-hidden">详细地址</span>
+            <span class="pc-hidden">地址</span>
+            <input type="text" id="city_address" placeholder="请输入详细地址">
+          </div>
+          <div class="btn">
+            <a href="javascript:;" type="button" class="sub-btn" id="sub-btn">预约服务</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section> -->
+
+<footer class="footer">
+  <div class="footer_main">
+   <div class="info-item">
+    <div class="footerlogo">
+     <a href="index.html"><img src="./images/footer.png" /></a >
+    </div>
+    <div class="address">
+     <p>福田区中康路卓越城1期1栋1402</p >
+     <p>中国.深圳</p >
+    </div>
+   </div>
+   <div class="info-item">
+    <ul class="footer_list">
+     <li><a href="#">首页</a ></li>
+     <li><a href="#">万物仓服务</a ></li>
+     <li><a href="#">万物仓优势</a ></li>
+     <li><a href="#">常见问题</a ></li>
+     <li><a href="#">资讯</a ></li>
+     <li><a href="#">练习我们</a ></li>
+    </ul>
+   </div>
+   <div class="info-item">
+    <div class="email">
+     <p>邮箱:</p >
+     <p>wwwww@wwwww</p >
+    </div>
+    <div class="email">
+     <p>客服时间：</p >
+     <p>9:00-17:30</p >
+    </div>
+   </div>
+  </div>
+  <div class="hold-line"></div>
+  <div class="friend-link">
+   <p>Copyright 2004-2016 深圳市万物仓仓储有限公司 版权所有</p >
+   <p>粤ICP备16111967号</p >
+  </div>
+</footer>
+
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<!--引入滑动插件-->
+<script src="./js/iscroll.js"></script>
+<!--引入轮播图的js文件-->
+<script src="./js/wjs-index.js"></script>
+</body>
+</html>
