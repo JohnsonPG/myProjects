@@ -1,0 +1,36 @@
+@charset "utf-8";
+header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index:2;
+    background: #fff;
+}
+.homePage{
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+   
+}
+.img{
+    width: 120px;
+    height: 44px;
+    position: fixed;
+    margin: 10px auto;
+}
+.hpomePage1{
+    position: absolute;
+    right: 0px;
+}
+.hpomePage1>li{
+    float: left;
+    position: relative;
+    line-height: 60px;
+    margin-right: 40px;
+}
+.hpomePage1>li>a{
+    text-decoration:none;
+    color: black;
+    font-size: 18px;
+}
