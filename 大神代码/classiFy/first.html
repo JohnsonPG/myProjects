@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/zero.css">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css" />
+	</head>
+	<style type="text/css">
+		.dropdown {
+			/* flex-grow: 1; */
+			position: relative;
+			/* display: inline-block; */
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background: white;
+			border-radius: 15px;
+			min-width: 100px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			padding: 12px 16px;
+			z-index: 1;
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+		p,
+		p:link {
+			color: #000;
+			text-decoration: none;
+			position: relative;
+			padding: 10px 15px;
+		}
+
+		p:after {
+			content: "";
+			width: 0;
+			height: 1px;
+			background: #f9da16;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transition: all .2s;
+		}
+
+		p:hover:after,
+		p.active:after {
+			left: 0%;
+			width: 100%;
+		}
+
+		#top {
+			padding-top: 64px;
+		}
+		.outer{
+			display: flex;
+		}
+		.outer2{
+			display: flex;
+			justify-content:flex-end;
+		}
+		.picture{
+			width: 832px;
+		}
+		.inner1{
+			font-size: 20px;
+			padding-top: 250px;
+			padding-left: 100px;
+		}
+		.inner2{
+			font-size: 20px;
+			padding-top: 250px;
+			padding-right: 180px;
+		}
+		/* a{
+			text-decoration:none;
+		} */
+	</style>
+	<body>
+		<header class="header">
+			<nav class="nav">
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
+				<label id='menu_png' for="menu_checkbox"><img src="img/menu.jpg" /></label>
+				<input id='menu_checkbox' type="checkbox" />
+				<ul class="nav1">
+					<li><a class="itme active" href="#">首页</a></li>
+					<li class="dropdown"><a class="itme" href="#">万物仓服务</a>
+						<div class="dropdown-content">
+							<p><a href="first.html">闲置物品</a></p>
+							<p><a href="second.html">家具家电</a></p>
+							<p><a href="third.html">办公文具</a></p>
+							<p><a href="fourth.html">电商货物</a></p>
+						</div>
+					</li>
+					<li><a class="itme" href="#">万物仓优势</a></li>
+					<li><a class="itme" href="#">常见问题</a></li>
+					<li><a class="itme" href="#">质询</a></li>
+					<li><a class="itme" href="#">联系我们</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="top">
+			<img src="img/main.png">
+		</div>
+		<div class="outer">
+			<div>
+				<img class="picture" src="img/shirt1.jpg" >
+			</div>
+			<div class="inner1">
+				<h1>换季衣物</h1><br><br><br><br>
+				<span>换季上衣、裤子、鞋子等不经常穿的</span><br><br>
+				<span>穿戴物品，万物仓为您收纳。</span>
+			</div>
+		</div>	
+		<div class="outer2">
+			<div class="inner2">
+				<h1>儿童玩具</h1><br><br><br><br>
+				<span>宝宝慢慢长大，不玩的玩具：儿童自行车、</span><br><br>
+				<span>小黄鸭、乐高玩具、小汽车、小火车、儿</span><br><br>
+				<span>童电子琴等玩具，万物仓为您整理。</span>
+			</div>
+			<div>
+				<img class="picture" src="img/shirt2.jpg" >
+			</div>
+		</div>	
+		<div class="outer">
+			<div>
+				<img class="picture" src="img/shirt3.jpg" >
+			</div>
+			<div class="inner1">
+				<h1>运动器材</h1><br><br><br><br>
+				<span>享受健康生活，山地自行车、沙袋、高尔夫球</span><br><br>
+				<span>杆、羽毛球拍等器材，来万物仓随存随取。</span>
+			</div>
+		</div>	
+		<div class="outer2">
+			<div class="inner2">
+				<h1>隐私物品</h1><br><br><br><br>
+				<span>害羞的小秘密物件，不想让周围的朋友知</span><br><br>
+				<span>道，万物仓来为您保密，让您轻松生活。</span>
+			</div>
+			<div>
+				<img class="picture" src="img/shirt4.jpg" >
+			</div>
+		</div>	
+		<div class="outer">
+			<div>
+				<img class="picture" src="img/shirt5.jpg" >
+			</div>
+			<div class="inner1">
+				<h1>古玩收藏</h1><br><br><br><br>
+				<span>祖传留下的清明家具、瓷器等有收藏价值的古</span><br><br>
+				<span>玩，占用生活空间大，让万物仓来释放您的空间。</span>
+			</div>
+		</div>	
+		
+		<footer class="footer">
+			<div class="footer_main">
+				<div class="info-item">
+					<div class="footerlogo">
+						<a href=" ">
+							<img src="img/footer.png" /></a>
+					</div>
+					<div class="address">
+						<li>福田区中康路卓越城1期1栋1402</li>
+						<li>中国.深圳</li>
+					</div>
+				</div>
+				<div class="info-item">
+					<ul class="footer_list">
+						<li><a href="#">首页</a></li>
+						<li><a href="#">万物仓服务</a></li>
+						<li><a href="#">万物仓优势</a></li>
+						<li><a href="#">常见问题</a></li>
+						<li><a href="#">资讯</a></li>
+						<li><a href="#">练习我们</a></li>
+					</ul>
+				</div>
+				<div class="info-item">
+					<div class="email">
+						<li>邮箱:</li>
+						<li>wwwww@wwwww</li>
+					</div>
+					<div class="email">
+						<li>客服时间：</li>
+						<li>9:00-17:30</li>
+					</div>
+				</div>
+			</div>
+			<div class="hold-line"></div>
+			<div class="friend-link">
+				<center><li>Copyright 2004-2016 深圳市万物仓仓储有限公司 版权所有</li>
+				<li>粤ICP备16111967号</li></center>
+			</div>
+		</footer>
+	</body>
+	<script type="text/javascript">
+		var iTme = document.getElementsByClassName('itme')
+
+		var clearActive = function() {
+			for (var i = 0; i < iTme.length; i++) {
+				iTme[i].className = 'itme';
+			}
+		}
+
+		for (var i = 0; i < iTme.length; i++) {
+			iTme[i].onclick = goIndex;
+		}
+
+		function goIndex() {
+			clearActive();
+			this.className = 'itme active';
+		}
+	</script>
+</html>

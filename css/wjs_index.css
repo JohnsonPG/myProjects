@@ -466,3 +466,11 @@
   line-height: 1;
      padding-bottom: 10px;
  }
+ #code{  
+  font-family:Arial;  
+  font-style:italic;  
+  font-weight:bold;  
+  border:0;  
+  letter-spacing:2px;  
+  color:blue;  
+}

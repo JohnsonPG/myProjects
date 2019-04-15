@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>万物仓</title>
+    <link href="./lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--引入公共样式文件--字体图标-->
+    <link rel="stylesheet" href="./css/base.css">
+    <!--引入当前页面的样式文件-->
+    <link rel="stylesheet" href="./css/wjs_index.css">
+    <link rel="stylesheet" href="./css/zero.css">
+    <!--引入独立的导航条样式-->
+    <!--<link rel="stylesheet" href="./css/wjs_nav.css">-->
+    <!--[if lt IE 9]>
+    <script src="./lib/html5shiv/html5shiv.min.js"></script>
+    <script src="./lib/respond/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--头部块-->
+<header class="wjs_header hidden-xs hidden-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <a href="#" class="wjs_code">
+                    <!-- <span class="wjs_icon wjs_icon_phone"></span> -->
+                    <span>手机万物仓</span>
+                    <span class="glyphicon glyphicon-menu-down"></span>
+                    <img src="./images/code.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <!-- <span class="wjs_icon wjs_icon_tel"></span> -->
+                <a href="#">4006-89-4006（服务时间：9:00~21:00） 联系在线客服</a>
+            </div>
+            <div class="col-md-2">
+                <a href="#">常见问题</a>&nbsp;
+                <a href="#">登录</a>
+            </div>
+            <div class="col-md-3">
+                <button type="button" class="btn btn-danger">免费注册</button>
+                <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+                <button type="button" class="btn btn-link">登录</button>
+            </div>
+        </div>
+    </div>
+</header>
+<!--导航条-->
+<nav class="navbar navbar-default wjs_nav">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="./images/icon.jpeg" alt="">
+        </a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav hidden-sm navbar-right">
+          <li class="active"><a href="index1.html">首页 <span class="sr-only">(current)</span></a></li>
+          <li class="dropdown" >
+                <a id="dLabel" data-target="first.html" href="first.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  万物仓服务
+                  <span class="caret"></span>
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li><a href="first.html">万物仓服务</a></li>
+                    <li><a href="problem.html">常见问题</a></li>
+                    <li><a href="index.html">资讯</a></li>
+                    <li><a href="#Contact us.html">联系我们</a></li>
+                </ul>
+            </li>
+          <li><a href="advanTageO.html">万物仓优势</a></li>
+          <li><a href="problem.html">常见问题</a></li>
+          <li><a href="index.html">资讯</a></li>
+          <li><a href="Contact us.html">联系我们</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="btn-warning"><a href="sub.html">立即预约</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+<!-- booking -->
+
+<!--轮播图-->
+<div class="wjs_banner">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" data-large-image="./images/slide_01_2000x410.jpg" data-small-image="./images/slide_01_2000x410.jpg">
+                <!--&lt;!&ndash;移动端&ndash;&gt;
+                <a href="javascript:;" class="mobileImg">
+                    <img src="./images/slide_01_640x340.jpg" alt="...">
+                </a>
+                &lt;!&ndash;非移动端&ndash;&gt;
+                <a href="javascript:;" class="pcImg" style="background-image: url('./images/slide_01_2000x410.jpg');"></a>-->
+            </div>
+            <div class="item" data-large-image="./images/slide_02_2000x410.jpg" data-small-image="./images/slide_02_2000x410.jpg">
+
+            </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<!--万物仓服务-->
+<div class="wjs_info ">
+   <div class="container">
+       <span><h1>万物仓可以为您存什么？</h1></span>
+        <div class="col-sm-12 col-md-6">
+           <a href="#">
+               <div class="media">
+                   <img src="./images/01.png" class="img-responsive" alt="">
+                   <!-- <span class="media-left wjs_icon wjs_icon_E900"></span> -->
+                   <div class="media-body container">
+                       <h4 class="media-heading">闲置物品</h4>
+                       <p>都市生活的您需要解决这一问题，提升自己的生活品质，
+
+                            用万物仓来提高您的生活质量。</p>
+                   </div>
+               </div>
+           </a>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <a href="#">
+                <div class="media">
+                    <img src="./images/02.png" class="img-responsive" alt="">
+                    <!-- <span class="media-left wjs_icon wjs_icon_E900"></span> -->
+                    <div class="media-body">
+                        <h4 class="media-heading">家具家电</h4>
+                        <p>都市生活的您需要解决这一问题，提升自己的生活品质，
+    
+                             用万物仓来提高您的生活质量。</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <a href="#">
+                <div class="media">
+                    <img src="./images/03.png" class="img-responsive" alt="">
+                    <!-- <span class="media-left wjs_icon wjs_icon_E900"></span> -->
+                    <div class="media-body">
+                        <h4 class="media-heading">办公文件</h4>
+                        <p>都市生活的您需要解决这一问题，提升自己的生活品质，
+    
+                             用万物仓来提高您的生活质量。</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <a href="#">
+                <div class="media">
+                    <img src="./images/04.png" class="img-responsive" alt="">
+                   <!-- <span class="media-left wjs_icon wjs_icon_E900"></span> -->
+                   <div class="media-body">
+                       <h4 class="media-heading">电商货物</h4>
+                       <p>都市生活的您需要解决这一问题，提升自己的生活品质，
+
+                            用万物仓来提高您的生活质量。</p>
+                   </div>
+                </div>
+            </a>
+        </div>
+   </div>
+</div>
+<!--预约块-->
+<!-- <div class="wjs_reverse hidden-xs">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <span class="wjs_icon wjs_icon_E906"></span>现在的272人在排队，累计预约交易成功7571次
+                <a href="#">什么叫预约投标?</a>
+                <a href="#" class="reverse_now">立即预约</a>
+            </div>
+            <div class="col-sm-3">
+                <span class="wjs_icon wjs_icon_E905"></span>
+                <a href="javascript:;">微金所企业宣传片</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!--产品块-->
+
+<!--新闻块-->
+<!-- <div class="wjs_news">
+ 
+    </div> -->
+<!-- <footer class="wjs_partner">
+    <div class="container">
+        <h3>合作伙伴</h3>
+        <ul>
+            <li>
+                <a href="javascript:;" class="wjs_icon wjs_icon_partner01"></a>
+            </li>
+            <li>
+                <a href="javascript:;" class="wjs_icon wjs_icon_partner02"></a>
+            </li>
+            <li>
+                <a href="javascript:;" class="wjs_icon wjs_icon_partner03"></a>
+            </li>
+            <li>
+                <a href="javascript:;" class="wjs_icon wjs_icon_partner04"></a>
+            </li>
+            <li>
+                <a href="javascript:;" class="wjs_icon wjs_icon_partner05"></a>
+            </li>
+            <li>
+                <a href="javascript:;" class="wjs_icon wjs_icon_partner06"></a>
+            </li>
+            <li>
+                <a href="javascript:;" class="wjs_icon wjs_icon_partner07"></a>
+            </li>
+            <li>
+                <a href="javascript:;" class="wjs_icon wjs_icon_partner08"></a>
+            </li>
+            <li>
+                <a href="javascript:;" class="wjs_icon wjs_icon_partner09"></a>
+            </li>
+        </ul>
+    </div>
+</footer> -->
+<footer class="footer img-responsive">
+        <div class="footer_main">
+         <div class="info-item">
+          <div class="footerlogo">
+           <a href="index.html"><img src="./images/footer.png" /></a >
+          </div>
+          <div class="address">
+           <p>福田区中康路卓越城1期1栋1402</p >
+           <p>中国.深圳</p >
+          </div>
+         </div>
+         <div class="info-item">
+          <ul class="footer_list">
+           <li><a href="#">首页</a ></li>
+           <li><a href="#">万物仓服务</a ></li>
+           <li><a href="#">万物仓优势</a ></li>
+           <li><a href="#">常见问题</a ></li>
+           <li><a href="#">资讯</a ></li>
+           <li><a href="#">练习我们</a ></li>
+          </ul>
+         </div>
+         <div class="info-item">
+          <div class="email">
+           <p>邮箱:</p >
+           <p>wwwww@wwwww</p >
+          </div>
+          <div class="email">
+           <p>客服时间：</p >
+           <p>9:00-17:30</p >
+          </div>
+         </div>
+        </div>
+        <div class="hold-line"></div>
+        <div class="friend-link">
+         <p>Copyright 2004-2016 深圳市万物仓仓储有限公司 版权所有</p >
+         <p>粤ICP备16111967号</p >
+        </div>
+</footer>
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<!--引入滑动插件-->
+<script src="./js/iscroll.js"></script>
+<!--引入轮播图的js文件-->
+<script src="./js/wjs-index.js"></script>
+
+</body>
+</html>

@@ -84,7 +84,8 @@
                 <div class="form-group row">
                   <div class="col-md-2"><h4 for="exampleInputcode1 ">验证码</h4></div>
                   <div class="col-md-8"><input type="code" class="form-control" id="exampleInputcode1" placeholder="请输入验证码"></div>
-                  <div class="col-md-1"></div><button type="submit" class="btn btn-warning">获取验证码</button>
+                  <div class="col-md-1"><input type = "button" id="code" onclick="createCode()"/></div>
+                  <div class="col-md-1"><button class="btn btn-warning btn-code" onclick = "validate()">获取验证码</button></div>
                 </div>
                 <div class="form-group row">
                     <div class="col-md-2"><h4 for="exampleInputcity1" >城市</label></div>
@@ -233,5 +234,7 @@
 <script src="./js/iscroll.js"></script>
 <!--引入轮播图的js文件-->
 <script src="./js/wjs-index.js"></script>
+<!-- 引入验证码插件 -->
+<script src="./js/demo.js"></script>
 </body>
 </html>
